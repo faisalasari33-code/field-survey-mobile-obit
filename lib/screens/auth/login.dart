@@ -11,7 +11,6 @@ class _LoginScreenState extends State<LoginScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   bool _obscurePassword = true;
-  
 
   @override
   void dispose() {
@@ -37,12 +36,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   size: 80,
                   color: Colors.amber,
                 ),
-                SizedBox(height: ,)
+                SizedBox(height: 50),
               ],
             ),
           ),
-        ))
+        ),
+      ),
     );
   }
-  
 }
