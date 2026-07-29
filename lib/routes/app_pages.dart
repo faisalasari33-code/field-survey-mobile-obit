@@ -1,9 +1,10 @@
+import 'package:flutter_application_login/screens/auth/register_page.dart';
 import 'package:go_router/go_router.dart';
 // Import file route (sesuaikan nama file jika app_routes.dart atau app_route.dart)
 import 'app_route.dart';
 // Gunakan relative import agar tidak terpengaruh nama package project
 import '../screens/splash/splash_screen.dart';
-import '../screens/auth/login.dart';
+import '../screens/auth/login_page.dart';
 import '../screens/auth/dashboard.dart';
 
 class AppPages {
@@ -22,6 +23,10 @@ class AppPages {
       GoRoute(
         path: AppRoutes.dasboard,
         builder: (context, state) => const DashboardPage(),
+      ),
+      GoRoute(
+        path: AppRoutes.register,
+        builder: (context, state) => const RegisterPage(),
       ),
     ],
   );

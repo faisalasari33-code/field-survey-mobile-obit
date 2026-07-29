@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Icon(Icons.assignment, size: 100, color: Colors.lightBlueAccent),
+            Icon(Icons.assignment, size: 100, color: Color.fromARGB(255, 39, 93, 117)),
             SizedBox(height: 20),
             Text(
               'field survey',
